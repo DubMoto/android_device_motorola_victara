@@ -1,0 +1,3 @@
+add_lunch_combo omni_victara-user
+add_lunch_combo omni_victara-userdebug
+add_lunch_combo omni_victara-eng
