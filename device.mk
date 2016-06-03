@@ -54,6 +54,7 @@ PRODUCT_COPY_FILES += \
     device/motorola/victara/permissions/com.motorola.avatar.xml:system/etc/permissions/com.motorola.avatar.xml \
     device/motorola/victara/permissions/com.motorola.camerabgproc_library.xml:system/etc/permissions/com.motorola.camerabgproc_library.xml \
     device/motorola/victara/permissions/com.motorola.camera.xml:system/etc/permissions/com.motorola.camera.xml \
+    device/motorola/victara/permissions/com.motorola.cameraone.xml:system/etc/permissions/com.motorola.cameraone.xml \
     device/motorola/victara/permissions/com.motorola.fpsmotosignature.xml:system/etc/permissions/com.motorola.fpsmotosignature.xml \
     device/motorola/victara/permissions/com.motorola.frameworks.core.addon.xml:system/etc/permissions/com.motorola.frameworks.core.addon.xml \
     device/motorola/victara/permissions/com.motorola.gallery.xml:system/etc/permissions/com.motorola.gallery.xml \
