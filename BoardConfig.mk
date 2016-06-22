@@ -95,9 +95,6 @@ EXTENDED_FONT_FOOTPRINT := true
 # GPS
 USE_DEVICE_SPECIFIC_GPS := true
 
-# Hardware
-BOARD_HARDWARE_CLASS := device/motorola/victara/cmhw
-
 # Init
 TARGET_NR_SVC_SUPP_GIDS := 32
 
