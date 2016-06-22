@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "CyanogenMod/android_kernel_motorola_msm8974",
+    "target_path": "kernel/motorola/msm8974",
+    "revision": "cm-13.0"
+  }
+]
