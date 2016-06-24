@@ -138,10 +138,6 @@ PRODUCT_PACKAGES += \
     libgenlock \
     memtrack.msm8974
 
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
-
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8974
