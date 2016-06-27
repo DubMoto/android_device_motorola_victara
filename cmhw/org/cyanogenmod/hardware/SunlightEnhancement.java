@@ -16,7 +16,11 @@
 
 package org.cyanogenmod.hardware;
 
-import org.cyanogenmod.internal.util.FileUtils;
+import org.cyanogenmod.hardware.util.FileUtils;
+
+import android.os.SystemProperties;
+
+import java.io.File;
 
 public class SunlightEnhancement {
 
@@ -28,7 +32,8 @@ public class SunlightEnhancement {
      * @return boolean Supported devices must return always true
      */
     public static boolean isSupported() {
-        return FileUtils.isFileWritable(FILE_HBM);
+        File f = new File(FILE_HBM);
+        return f.exists();
     }
 
     /**
