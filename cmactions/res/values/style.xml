@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="CMActionsTheme" parent="android:Theme.NoTitleBar.Fullscreen">
-        <item name="android:background">@android:color/black</item>
-        <item name="android:windowBackground">@android:color/black</item>
-        <item name="android:colorBackground">@android:color/black</item>
-        <item name="android:windowAnimationStyle">@null</item>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="CMActionsTheme" parent="@android:style/Theme.Material.DayNight.DarkActionBar">
     </style>
 </resources>
