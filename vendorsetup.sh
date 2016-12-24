@@ -1,0 +1,4 @@
+add_lunch_combo aokp_victara-user
+add_lunch_combo aokp_victara-userdebug
+add_lunch_combo aokp_victara-eng
+
