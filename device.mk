@@ -119,11 +119,6 @@ PRODUCT_PACKAGES += \
     libshim_camera \
     camera.msm8974
 
-# Charger
-PRODUCT_PACKAGES += \
-    charger \
-    charger_res_images
-
 # CRDA
 PRODUCT_PACKAGES += \
     crda \
