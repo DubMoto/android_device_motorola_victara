@@ -16,11 +16,6 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-$(call inherit-product, vendor/motorola/victara/victara-vendor.mk)
-
-# Overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
@@ -117,7 +112,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap \
+    SnapdragonCamera \
     libshim_camera \
     camera.msm8974
 
@@ -135,10 +130,6 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8974 \
     libgenlock \
     memtrack.msm8974
-
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
 
 # GPS
 PRODUCT_PACKAGES += \
@@ -237,10 +228,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libshims_thermal
 
-# Torch
-PRODUCT_PACKAGES += \
-    Torch
-
 # Wifi
 PRODUCT_PACKAGES += \
     hostapd \
@@ -262,6 +249,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 
 # CMActions
-PRODUCT_PACKAGES += \
-    CMActions \
-    libjni_CMActions
+# PRODUCT_PACKAGES += \
+#    CMActions \
+#    libjni_CMActions
