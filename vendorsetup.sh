@@ -1,11 +1,11 @@
 #
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright 2014 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-# http://www.apache.org/licenses/LICENSE-2.0
+#      http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -14,15 +14,5 @@
 # limitations under the License.
 #
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+add_lunch_combo omni_victara-userdebug
 
-# Inherit from victara device
-$(call inherit-product, device/motorola/victara/device.mk)
-
-# Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := victara
-PRODUCT_NAME := full_victara
-PRODUCT_BRAND := motorola
-PRODUCT_MODEL := victara
-PRODUCT_MANUFACTURER := motorola
