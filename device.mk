@@ -220,6 +220,11 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
+# RIL
+PRODUCT_PACKAGES += \
+    libqsap_sdk \
+    libQWiFiSoftApCfg
+
 # Support
 PRODUCT_PACKAGES += \
     libcnefeatureconfig \
