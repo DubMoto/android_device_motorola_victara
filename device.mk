@@ -229,7 +229,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     libcurl \
-    libxml2
+    libxml2 \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 
 # Thermal
 PRODUCT_COPY_FILES += \
